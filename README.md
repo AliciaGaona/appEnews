@@ -9,20 +9,22 @@ Instalar python
 Crear entorno virtual para instalar todo lo relacionado con fast Api
 
 ```python
-python -m venv tutorial-env
+python -m venv fastapi-env
 ```
 
 Activar entorno virtual
 
 ```python
-fastApi\Scripts\activate
+fastApi-env\Scripts\activate
 ```
 
 Asi nos podemos dar cuenta de que se activo el entorno virtual fastApi
 
-![image](https://github.com/AliciaGaona/appEnews/assets/99162884/a0eddbd0-5918-4b7d-8686-ee33d6745180)
+![image](https://github.com/AliciaGaona/appEnews/assets/99162884/0417f7f5-43fa-4268-b0da-49269e220785)
+
 
 [Entorno virtual python](https://docs.python.org/es/3/tutorial/venv.html#creating-virtual-environments)
+
 
 Instalar FastAPI
 
@@ -30,12 +32,18 @@ Instalar FastAPI
 pip install fastapi
 ```
 
-
 Fastapi funciona con uvicorn, es un modulo que crea servidor web para ejecutar nuestra api
 
 ```python
-pip install 'uvicorn[standard]'
+pip install uvicorn
 ```
+
+
+## Urls
+
+http://127.0.0.1:8000
+
+
 
 ## Bibliotecas utilizadas
 
