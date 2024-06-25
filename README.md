@@ -58,6 +58,9 @@ pip install uvicorn
 http://127.0.0.1:8000
 
 
+## Doucumentcion API(SWAGGER)
+
+http://127.0.0.1:8000/docs
 
 ## Bibliotecas utilizadas
 
