@@ -20,6 +20,7 @@ python -m pip install pyodbc
 
 ## Herramientas y tecnologías utilizadas
 
-+SQL SERVER
-+Visual code
-+Python versión 3.12.4
+
+* SQL SERVER
+* Visual code
+* Python versión 3.12.4
