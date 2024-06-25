@@ -6,6 +6,14 @@ Instalar python
 
 [Instalar python](https://www.python.org/downloads/)
 
+
+Instalar programa de instalación pip
+
+```python
+python -m pip install SomePackage
+```
+
+
 Crear entorno virtual para instalar todo lo relacionado con fast Api
 
 ```python
