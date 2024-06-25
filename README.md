@@ -24,7 +24,19 @@ Asi nos podemos dar cuenta de que se activo el entorno virtual fastApi
 
 [Entorno virtual python](https://docs.python.org/es/3/tutorial/venv.html#creating-virtual-environments)
 
+Instalar FastAPI
+
+```python
+pip install fastapi
+```
+
+
 ## Bibliotecas utilizadas
+
+##FastAPI
+
+[FastAPI](https://fastapi.tiangolo.com/)
+
 
 Comando instalación
 
