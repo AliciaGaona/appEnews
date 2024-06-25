@@ -1,4 +1,4 @@
-# appEnews
+# AppEnews
 
 ## Instrucciones
 
