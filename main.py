@@ -10,3 +10,8 @@ app= FastAPI()
 @app.get("/")
 def index():
     return "Hola entre"
+
+
+@app.get("/getCategories")
+def getCategories():
+    return "Hola entre"
