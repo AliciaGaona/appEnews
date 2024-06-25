@@ -53,7 +53,7 @@ pip install uvicorn
  uvicorn main:app --reload
 ```
 
-## Urls
+##  RUtas y endpoints 
 
 http://127.0.0.1:8000
 
