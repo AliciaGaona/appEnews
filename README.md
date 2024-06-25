@@ -31,11 +31,19 @@ pip install fastapi
 ```
 
 
+Fastapi funciona con uvicorn, es un modulo que crea servidor web para ejecutar nuestra api
+
+```python
+pip install 'uvicorn[standard]'
+```
+
 ## Bibliotecas utilizadas
 
-##FastAPI
+## FastAPI
 
 [FastAPI](https://fastapi.tiangolo.com/)
+
+
 
 
 Comando instalación
