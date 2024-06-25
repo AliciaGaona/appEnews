@@ -39,6 +39,12 @@ pip install uvicorn
 ```
 
 
+## Correr servidor web uvicorn
+
+```python
+ uvicorn main:app --reload
+```
+
 ## Urls
 
 http://127.0.0.1:8000
