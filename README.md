@@ -2,25 +2,25 @@
 
 ## Instrucciones
 
-Instalar python
+1. Instalar python
 
 [Instalar python](https://www.python.org/downloads/)
 
 
-Instalar programa de instalación pip
+2. Instalar programa de instalación pip
 
 ```python
 python -m pip install SomePackage
 ```
 
 
-Crear entorno virtual para instalar todo lo relacionado con fast Api
+3. Crear entorno virtual para instalar todo lo relacionado con fastApi
 
 ```python
 python -m venv fastapi-env
 ```
 
-Activar entorno virtual
+4. Activar entorno virtual
 
 ```python
 fastApi-env\Scripts\activate
@@ -31,7 +31,7 @@ Asi nos podemos dar cuenta de que se activo el entorno virtual fastApi
 ![image](https://github.com/AliciaGaona/appEnews/assets/99162884/0417f7f5-43fa-4268-b0da-49269e220785)
 
 
-Instalar FastAPI
+5. Instalar FastAPI
 
 ```python
 pip install fastapi
