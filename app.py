@@ -1,7 +1,4 @@
 import conexionBD 
-
-#print(conexionBD.get_connection())
-
 try:
   connection = conexionBD.get_connection()
   with connection.cursor() as cursor:#declaro crso para llamara sp
