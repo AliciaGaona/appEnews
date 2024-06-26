@@ -49,7 +49,7 @@ pip install uvicorn
 pip install pymysql
 ```
 
-Base de datos 🗂️
+## Base de datos 🗂️
 
 1. Correr script de BD en tu SQL SERVER, script se enviará en adjuntos de correo (script_ExamenPruebaDev)
 2. Agregar tus credenciales de base de datos
