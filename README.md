@@ -149,4 +149,24 @@ python -m pip install pyodbc
 | [Front con Vue](https://github.com/AliciaGaona/appEnewsFront) |
 | [Front con React](https://github.com/AliciaGaona/appEnewsFrontwithReact)| 
 
+## En proceso, bugs 🛠️🔎
+
+- Se esta revisando el tema del la configuracion del CORS, ya que las pruebas todo ok, pero si un front quiere acceder el CORS lo bloquea.
+La solución de la documentación y de lo encontrado, sugiere usar middleware, pero al importarlo este no me da la opción disponible de "add_middleware"
+
+archivo: catalogos.py
+
+```phyton
+from fastapi.middleware.cors import CORSMiddleware
+
+# Se agrega configuración de la política CORS, para poder consumir api desde mi front, ya que esta marcando problemas
+# catalogo.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["*"],  # Permitir solicitudes desde cualquier origen
+#     allow_methods=["*"],  # Permitir todos los métodos HTTP
+#     allow_headers=["*"],  # Permitir todos los encabezados
+# )
+
+```
+
 
