@@ -171,6 +171,9 @@ Estatus: Se realiza, aunque corra con localhost, sigue marcando error en CORS, a
 Posible solución 2: 
 La solución de la documentación y de lo encontrado, sugiere usar middleware, pero al importarlo este no me da la opción disponible de "add_middleware", tambien se intento usar middleware como clase.
 
+El problema es que esta en un archivo que no es el raiz, app.py o main.py, se probará pasar todos los métodos a api o main, ya que en esos dos si acepta como valido el 
+"add_middleware"
+
 archivo: catalogos.py
 
 ```phyton
