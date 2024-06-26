@@ -91,7 +91,8 @@ python -m pip install pyodbc
 
 ## FrontEnds
 
-[Front con Vue](https://fastapi.tiangolo.com/](https://github.com/AliciaGaona/appEnewsFront)
+[Front con Vue](https://github.com/AliciaGaona/appEnewsFront)
+
 [Front con React](https://github.com/AliciaGaona/appEnewsFrontwithReact)
 
 
