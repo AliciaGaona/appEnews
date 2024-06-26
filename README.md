@@ -49,6 +49,18 @@ pip install uvicorn
 pip install pymysql
 ```
 
+Base de datos
+
+1. Correr script de BD en tu SQL SERVER
+2. Agregar tus credenciales de base de datos
+
+En archivo conexionBD.py cambiar valores de variables:
+
+server = "server"
+bd = "nombre base de datos"
+usuario = "usuario"
+contrasena = "password"
+
 ## Correr servidor web uvicorn
 
 ```python
