@@ -31,3 +31,25 @@ class Copys(BaseModel):
     processing:int
     file:str
 
+class All(BaseModel):
+    id:int
+    medio:str
+    fecha:str
+    marca:str
+    producto:str
+    version:str
+    programa:str
+    hora:str
+    vehiculo:str
+    anunciante:str
+    tema:str
+    id_categoryCopys:int
+    processing:int
+    file:str   
+    medioPage:str
+    spots:int  
+    src_link:str 
+  
+ 
+  
+

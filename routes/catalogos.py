@@ -57,3 +57,18 @@ def get_Categories():
     except Exception as e:
         return JSONResponse(content={"error":str(e)}, status_code=500)
     pass
+
+
+@catalogo.get("/getAll", response_model=List[models.All])
+def get_All():
+    try:
+        connection = conexionBD.get_connection()
+        cursor=connection.cursor()
+        # Ejecuta el procedimiento almacenado
+        sql = 'exec sp_appEnewsCatalog_all'
+        cursor.execute(sql)
+        result=cursor.fetchall()
+        return result
+    except Exception as e:
+        return JSONResponse(content={"error":str(e)}, status_code=500)
+    pass
