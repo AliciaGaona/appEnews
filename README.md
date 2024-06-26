@@ -91,9 +91,12 @@ python -m pip install pyodbc
 
 * ## Referencias
 
-[FastAPI](https://fastapi.tiangolo.com/)
-[Entorno virtual python](https://docs.python.org/es/3/tutorial/venv.html#creating-virtual-environments)
-[pymysql](https://pypi.org/project/PyMySQL/)
+
+|----------|
+| [FastAPI](https://fastapi.tiangolo.com/)  |
+| [Entorno virtual python](https://docs.python.org/es/3/tutorial/venv.html#creating-virtual-environments) | 
+| [pymysql](https://pypi.org/project/PyMySQL/)   |
+
 
 ## FrontEnds
 
