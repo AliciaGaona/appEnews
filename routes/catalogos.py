@@ -7,6 +7,7 @@ from typing import List
 import models.interfaces as models
 from fastapi.middleware.cors import CORSMiddleware
 
+
 catalogo= APIRouter()
 
 
