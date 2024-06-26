@@ -89,9 +89,9 @@ python -m pip install pyodbc
 * Visual code
 * Python versión 3.12.4
 
-* ## Referencias
+## Referencias
 
-
+| URLS | 
 |----------|
 | [FastAPI](https://fastapi.tiangolo.com/)  |
 | [Entorno virtual python](https://docs.python.org/es/3/tutorial/venv.html#creating-virtual-environments) | 
