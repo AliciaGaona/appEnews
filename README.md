@@ -86,3 +86,8 @@ python -m pip install pyodbc
 * SQL SERVER
 * Visual code
 * Python versión 3.12.4
+
+## FrontEnds
+
+https://github.com/AliciaGaona/appEnewsFront
+https://github.com/AliciaGaona/appEnewsFrontwithReact
