@@ -74,7 +74,6 @@ url docuentación(swagger) : 127.0.0.1:8000/docs , a tu url le agregas /docs y a
 
 ## Bibliotecas utilizadas
 
-- sqlalchemy
 - pymysql
 
 
