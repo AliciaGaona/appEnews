@@ -1,6 +1,6 @@
 # AppEnews
 
-## Instrucciones
+## Instrucciones ⚙️
 
 1. Instalar python
 
