@@ -1,6 +1,6 @@
 # Construcción de API con Python y fastAPI
 
-## Instrucciones ⚙️
+## Instrucciones antes de correr proyecto ⚙️
 
 1. Instalar python
 
@@ -61,8 +61,15 @@ En archivo conexionBD.py cambiar valores de variables:
 - usuario = "usuario"
 - contrasena = "password"
 
-## Correr servidor web uvicorn 🚀
+## Iniciar proyecto 🚀
 
+1. Activar entorno virtual
+
+```python
+fastApi-env\Scripts\activate
+```
+2. Correr servidor
+3. 
 ```python
  uvicorn main:app --reload
 ```
