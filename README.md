@@ -152,7 +152,7 @@ python -m pip install pyodbc
 ## En proceso, bugs 🛠️🔎
 
 - Se esta revisando el tema del la configuracion del CORS, ya que las pruebas todo ok, pero si cualquier front (se intento con React, Vue y javaScript puro) quiere acceder el CORS lo bloquea.
-La solución de la documentación y de lo encontrado, sugiere usar middleware, pero al importarlo este no me da la opción disponible de "add_middleware"
+La solución de la documentación y de lo encontrado, sugiere usar middleware, pero al importarlo este no me da la opción disponible de "add_middleware", tambien se intento usar middleware como clase.
 
 archivo: catalogos.py
 
