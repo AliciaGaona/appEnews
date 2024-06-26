@@ -5,8 +5,19 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List
 import models.interfaces as models
+from fastapi.middleware.cors import CORSMiddleware
 
 catalogo= APIRouter()
+
+
+# Se agrega configuración de la política CORS, para poder consumir api desde mi front, ya que esta marcando problemas
+catalogo.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Permitir solicitudes desde cualquier origen
+    allow_methods=["*"],  # Permitir todos los métodos HTTP
+    allow_headers=["*"],  # Permitir todos los encabezados
+)
+
 
 @catalogo.get("/")
 def index():
