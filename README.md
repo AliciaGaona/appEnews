@@ -151,7 +151,8 @@ python -m pip install pyodbc
 
 ## En proceso, bugs 🛠️🔎
 
-- Se esta revisando el tema del la configuracion del CORS, ya que las pruebas todo ok, pero si cualquier front (se intento con React, Vue y javaScript puro) quiere acceder el CORS lo bloquea.
+- Se esta revisando el tema del la configuracion del CORS, ya que las pruebas todo ok, pero si cualquier front (se intento con React, Vue y javaScript puro) quiere acceder el CORS lo bloquea, ya que tinenen origins distintos.
+
 La solución de la documentación y de lo encontrado, sugiere usar middleware, pero al importarlo este no me da la opción disponible de "add_middleware", tambien se intento usar middleware como clase.
 
 archivo: catalogos.py
@@ -169,4 +170,4 @@ from fastapi.middleware.cors import CORSMiddleware
 
 ```
 
-
+Solución 2 a probar, revisar como editar la configuración de la API para que corra el servidor con localhost y no con la ip, en teoría esto debería funcionar para correr en local.
