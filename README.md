@@ -53,9 +53,9 @@ pip install uvicorn
  uvicorn main:app --reload
 ```
 
-##  RUtas y endpoints 
+##  Rutas y endpoints 
 
-http://127.0.0.1:8000
+url : http://127.0.0.1:8000 (puede cambiar dependiento tu configuracón local)
 
 | EndPoint | Tipo | 
 |----------|----------|
@@ -63,6 +63,11 @@ http://127.0.0.1:8000
 | /getCopys   | get |
 | /getPages    | get  |
 | /getAll   | get  |
+
+
+url docuentación(swagger) : 127.0.0.1:8000/docs , a tu url le agregas /docs y asi puedes acceder a la docuentación y hacer pruebas de los métodos.
+
+![image](https://github.com/AliciaGaona/appEnews/assets/99162884/b9e82a9d-e657-4cc6-b729-28711803764e)
 
 
 
