@@ -100,8 +100,9 @@ python -m pip install pyodbc
 
 ## FrontEnds
 
-[Front con Vue](https://github.com/AliciaGaona/appEnewsFront)
-
-[Front con React](https://github.com/AliciaGaona/appEnewsFrontwithReact)
+| URLS | 
+|----------|
+| [Front con Vue](https://github.com/AliciaGaona/appEnewsFront) |
+| [Front con React](https://github.com/AliciaGaona/appEnewsFrontwithReact)| 
 
 
