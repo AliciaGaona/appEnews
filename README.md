@@ -69,10 +69,16 @@ En archivo conexionBD.py cambiar valores de variables:
 fastApi-env\Scripts\activate
 ```
 2. Correr servidor
-3. 
+   
 ```python
  uvicorn main:app --reload
 ```
+
+![image](https://github.com/AliciaGaona/appEnews/assets/99162884/5d151081-9f1b-4af3-a54b-0b7f7023c6bc)
+
+En esta línea viene la url que utilizó oara correr, en este caso
+
+ Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 
 ##  Rutas y endpoints 🚀
 
