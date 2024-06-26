@@ -43,6 +43,11 @@ Fastapi funciona con uvicorn, es un modulo que crea servidor web para ejecutar n
 pip install uvicorn
 ```
 
+6. Instalar pymysql
+
+```python
+pip install pymysql
+```
 
 ## Correr servidor web uvicorn
 
