@@ -57,6 +57,14 @@ pip install uvicorn
 
 http://127.0.0.1:8000
 
+| EndPoint | Tipo | 
+|----------|----------|
+| /getCategories   | get  | 
+| /getCopys   | get |
+| /getPages    | get  |
+| /getAll   | get  |
+
+
 
 ## Doucumentcion API(SWAGGER)
 
