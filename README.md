@@ -64,10 +64,6 @@ http://127.0.0.1:8000/docs
 
 ## Bibliotecas utilizadas
 
-## FastAPI
-
-[FastAPI](https://fastapi.tiangolo.com/)
-
 
 
 
@@ -87,7 +83,15 @@ python -m pip install pyodbc
 * Visual code
 * Python versión 3.12.4
 
+* ## Referencias
+
+[FastAPI](https://fastapi.tiangolo.com/)
+
+
+
 ## FrontEnds
 
-https://github.com/AliciaGaona/appEnewsFront
-https://github.com/AliciaGaona/appEnewsFrontwithReact
+[Front con Vue](https://fastapi.tiangolo.com/](https://github.com/AliciaGaona/appEnewsFront)
+[Front con React](https://github.com/AliciaGaona/appEnewsFrontwithReact)
+
+
