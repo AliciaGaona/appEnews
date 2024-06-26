@@ -1,6 +1,4 @@
 # Construcción de API con Python y fastAPI
-![Python fastAPI](https://img.shields.io/badge/maintainer-theMaintainer-blue)
-
 
 ## Instrucciones ⚙️
 
