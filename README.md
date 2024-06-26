@@ -151,8 +151,23 @@ python -m pip install pyodbc
 
 ## En proceso, bugs 🛠️🔎
 
-- Se esta revisando el tema del la configuracion del CORS, ya que las pruebas todo ok, pero si cualquier front (se intento con React, Vue y javaScript puro) quiere acceder el CORS lo bloquea, ya que tinenen origins distintos.
+Bug 1, descripción: Hay un tema en la configuracion del CORS, ya que las pruebas todo ok, pero si cualquier front (se intento con React, Vue y javaScript puro) quiere acceder el CORS lo bloquea, ya que tinenen origins distintos.
 
+![image](https://github.com/AliciaGaona/appEnews/assets/99162884/96345273-55b5-4141-bc3c-caad0b2383f7)
+
+
+Posible solución 1: revisar como editar la configuración de la API para que corra el servidor con localhost y no con la ip, en teoría esto debería funcionar para correr en local.
+
+comando para obligar a correr en mi localhost y no ip
+
+```phyton
+uvicorn main:app --port=8000 --host=localhost --reload  
+```
+
+Estatus: Se realiza, aunque corra con localhost, sigue marcando error en CORS, al intentar acceder.
+
+
+Posible solución 2: 
 La solución de la documentación y de lo encontrado, sugiere usar middleware, pero al importarlo este no me da la opción disponible de "add_middleware", tambien se intento usar middleware como clase.
 
 archivo: catalogos.py
@@ -170,4 +185,6 @@ from fastapi.middleware.cors import CORSMiddleware
 
 ```
 
-Solución 2 a probar, revisar como editar la configuración de la API para que corra el servidor con localhost y no con la ip, en teoría esto debería funcionar para correr en local.
+Estatus: en proceso.
+
+
