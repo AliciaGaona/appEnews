@@ -101,6 +101,13 @@ Comando instalación
 python -m pip install pyodbc
 ```
 
+## Procedimientos almacenados
+
+1. sp_appEnewsCatalog_all
+2. sp_appEnewscataloguecategories_get
+3. sp_appEnewsCatalogueCopys_get
+4. sp_appEnewsCataloguePages_get
+
 ## Herramientas y tecnologías utilizadas
 
 * SQL SERVER
