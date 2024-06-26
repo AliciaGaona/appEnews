@@ -115,6 +115,11 @@ Comando instalación
 python -m pip install pyodbc
 ```
 
+## Test
+
+![image](https://github.com/AliciaGaona/appEnews/assets/99162884/a3820417-8af3-4510-b043-6751d7db62ef)
+
+
 ## Procedimientos almacenados 🚀
 
 1. sp_appEnewsCatalog_all
