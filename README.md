@@ -78,6 +78,10 @@ url : http://127.0.0.1:8000 (puede cambiar dependiento tu configuracón local)
 | /getPages    | get  |
 | /getAll   | get  |
 
+![image](https://github.com/AliciaGaona/appEnews/assets/99162884/57f84fd5-23d0-4e54-8fb5-b2cd11de051a)
+![image](https://github.com/AliciaGaona/appEnews/assets/99162884/c3b33d95-b95f-4dd2-b435-c73f93701474)
+
+
 
 ## Doucumentcion API(SWAGGER)
 
