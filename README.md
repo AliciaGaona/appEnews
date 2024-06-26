@@ -156,7 +156,7 @@ Bug 1, descripción: Hay un tema en la configuracion del CORS, ya que las prueba
 ![image](https://github.com/AliciaGaona/appEnews/assets/99162884/96345273-55b5-4141-bc3c-caad0b2383f7)
 
 
-Posible solución 1: revisar como editar la configuración de la API para que corra el servidor con localhost y no con la ip, en teoría esto debería funcionar para correr en local.
+Posible solución 1: revisar como editar la configuración de la API para que corra el servidor con localhost y no con la ip, para correr en local.
 
 comando para obligar a correr en mi localhost y no ip
 
