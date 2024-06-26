@@ -31,9 +31,6 @@ Asi nos podemos dar cuenta de que se activo el entorno virtual fastApi
 ![image](https://github.com/AliciaGaona/appEnews/assets/99162884/0417f7f5-43fa-4268-b0da-49269e220785)
 
 
-[Entorno virtual python](https://docs.python.org/es/3/tutorial/venv.html#creating-virtual-environments)
-
-
 Instalar FastAPI
 
 ```python
@@ -88,7 +85,6 @@ python -m pip install pyodbc
 
 ## Herramientas y tecnologías utilizadas
 
-
 * SQL SERVER
 * Visual code
 * Python versión 3.12.4
@@ -96,8 +92,8 @@ python -m pip install pyodbc
 * ## Referencias
 
 [FastAPI](https://fastapi.tiangolo.com/)
-
-
+[Entorno virtual python](https://docs.python.org/es/3/tutorial/venv.html#creating-virtual-environments)
+[pymysql](https://pypi.org/project/PyMySQL/)
 
 ## FrontEnds
 
