@@ -56,10 +56,10 @@ Base de datos
 
 En archivo conexionBD.py cambiar valores de variables:
 
-server = "server"
-bd = "nombre base de datos"
-usuario = "usuario"
-contrasena = "password"
+- server = "server"
+- bd = "nombre base de datos"
+- usuario = "usuario"
+- contrasena = "password"
 
 ## Correr servidor web uvicorn
 
