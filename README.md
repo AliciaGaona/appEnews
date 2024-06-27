@@ -189,6 +189,15 @@ from fastapi.middleware.cors import CORSMiddleware
 
 ```
 
-Estatus: en proceso.
+Estatus: Resuelto, este tipo de configuración siempre se debe hacer en su raiz main.py, como lo estaba importando  fuera de este archivo, no lo estaba importando con todas las propiedades, se importa en main.py y se le indica por comando al servidor que lo corra sobre localhost, se pueba en consoal de desarrollo.
+
+![image](https://github.com/AliciaGaona/appEnews/assets/99162884/0044f9c2-6b62-40ef-9327-3657364ac544)
+
+
+```phyton
+uvicorn main:app --reload --host localhost --port 8000
+```
+
+![image](https://github.com/AliciaGaona/appEnews/assets/99162884/3ac4e2a2-f085-4108-8256-682cb8dfa119)
 
 
